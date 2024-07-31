@@ -8,6 +8,7 @@
             }
             internal static string Validation2(string answer)
             {
+
                 while (string.IsNullOrEmpty(answer) || !Int32.TryParse(answer, out _))
                 {
                     Console.WriteLine("Only integers is acceptable!");
